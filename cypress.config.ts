@@ -1,14 +1,16 @@
-import { defineConfig } from 'cypress';
+const { defineConfig } = require('cypress')
 
-export default defineConfig({
+module.exports = defineConfig({
     component: {
     devServer: {
         framework: 'react',
         bundler: 'vite',
     },
+    supportFile: 'cypress/support/component.js',
+    indexHtmlFile: 'cypress/support/component-index.html'
     },
     e2e: {
     baseUrl: 'http://localhost:3001',
-    supportFile: false,
+    supportFile: 'cypress/support/e2e.js',
     },
-});
+})
