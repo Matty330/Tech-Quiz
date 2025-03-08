@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "1",
+        "question": "What is React?",
+        "answers": [
+        { "text": "A JavaScript library for building user interfaces", "isCorrect": true },
+        { "text": "A programming language", "isCorrect": false },
+        { "text": "A database", "isCorrect": false },
+        { "text": "A server", "isCorrect": false }
+        ]
+    },
+    {
+        "_id": "2",
+        "question": "What is JSX?",
+        "answers": [
+        { "text": "A database query language", "isCorrect": false },
+        { "text": "A syntax extension for JavaScript", "isCorrect": true },
+        { "text": "A CSS framework", "isCorrect": false },
+        { "text": "A React component", "isCorrect": false }
+        ]
+    }
+    ]
